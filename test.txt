@@ -1,4 +1,3 @@
 test git and github
 the second PC commit matebook
 the second PC commit lenovo
->>>>>>> 7f8ba82c75a94b6ac871ee2c2b87b1679ce73b27
