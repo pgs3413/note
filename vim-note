@@ -1,8 +1,15 @@
 进入编辑模式：i I a A o O s S
+进入可视模式：v
 普通模式下删除：x dd d^ d$ dgg dGG
 普通模式移动光标: h j k l num+h j k l
 普通模式 操作范围：^行首 $行尾 b e w gg文件开头 GG文件末尾
           撤销：u 撤销最后一次修改 U 撤销对整行的修改 ctrl+r 恢复撤销
           剪切：p可以将删除的东西粘贴到光标之后 
-          复制粘贴：y+num y^ y$  yy num+yy p
+          复制粘贴：y y+num y^ y$  yy num+yy p
           替换：r num+r R 进入到替换模式
+          查看文件信息：ctrl+g
+          跳转：num+G ：num
+          定位括号：%
+          缩进：<< >>
+ 
+ 搜索：/ ?
