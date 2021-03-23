@@ -45,6 +45,12 @@ tar 
 
 
 gcc
+
+预处理 gcc -E hello.c -o hello.i
+编译 gcc -S hello.i -o hello.s
+汇编 gcc -c hello.s -o hello.o
+链接 gcc hello.o -o hello
+
 1.预处理 头文件引入 宏的展开 指令处理 
     gcc -E *.c > *.txt 
 2.编译 生成目标文件 .obj
