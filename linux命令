@@ -42,3 +42,11 @@ tar 
 .rar
 解压：rar x FileName.rar
 压缩：rar a FileName.rar DirName 
+
+
+gcc
+1.预处理 头文件引入 宏的展开 指令处理 
+    gcc -E *.c > *.txt 
+2.编译 生成目标文件 .obj
+    gcc -c *.c 默认生成*.o
+3.链接 把多个目标文件 包括 动态库 静态库 链接到一起，生成最终的可执行文件
