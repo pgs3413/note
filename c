@@ -19,3 +19,22 @@ hlL: hh 单个字节  h short  l long  ll long long  L long double
 scanf: %[flag]type
 
 flag: * 跳过   数字 最大字符数   hh h l ll L
+
+
+#文件输入输出
+
+FILE *fp=fopen("file","r"); //r  r+ : 从文件头开始  w  w+:读写 a ..x:只新建
+ if(fp){
+ //字符文件
+int num;
+fscanf(fp,"%d",&num); // fprintf
+printf("%d\n",num);
+//二进制文件
+fwrite fread 
+
+fclose(fp);
+
+}else{ //没有打开 ， 返回NULL
+''
+}
+
