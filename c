@@ -11,7 +11,11 @@
 
 #格式化对齐
 
-%[flags][width][.prec][hlL]type
+printf:  %[flags][width][.prec][hlL]type
 
 flags: - 左对齐 + 在前面放+或- (space) 正数留空 0 0填充
 hlL: hh 单个字节  h short  l long  ll long long  L long double
+
+scanf: %[flag]type
+
+flag: * 跳过   数字 最大字符数   hh h l ll L
